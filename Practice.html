@@ -1,0 +1,535 @@
+<!DOCTYPE html> <!--This must be placed at the top the purpose of it is to let the webpage know that this is a HTML5 document---->
+<!--notes like these must have at least two dashes before & after the text-->
+
+
+<html > <!--Document should be inside two of these (sandwiched between) -->
+
+<head > <!--This is what is at the top of the page--->
+   
+    
+    <title>Practice</title>
+    
+    <meta name="charset" content="UTF-8">
+    <!--This allows you to choose a character set such as ASCII
+    ANSI and UNICODE. Unicode (UTF-8) Covers mosts characters and 
+    symbols in every written language so would be a great option-->
+    <meta name="viewport" content="width=device-width,
+    initial-scale=0.6">
+    <!--This allows the page size to be optimised for different
+    device sizes such as mobile-->
+    <meta name="keywords" content="Ibrahims practice page">
+    <!--These keywords previously would have previously helped
+    establishing your page for seo purposes this has apparently 
+    now become largely obsolete-->
+    <meta name="description" content="Embarking on the 
+    adventure of web development and discovering the potential
+    of HTML, CSS, and JavaScript. Follow my coding journey as I
+    create, learn, and share my web projects  and findings">
+    <!--This "description" meta tag provides a brief description 
+    of a webpages content , these are what could appear under links
+    on search engines such as google -->
+    <meta name="author" content="Ibrahim Mohamed">
+    <!--Defines who the author of the page is -->
+    <meta http-equiv="refresh" content="">
+    <!--This tag sets a timer for how often the page should
+     refresh , this is quantified in seconds curently it is left
+     blank so will not refresh-->
+
+<br>
+<br>
+<h1 align="center">Practice Page</h1>    
+
+<i>
+     Welcome to my practice page, here I've been diving into the world of HTML, CSS, and JavaScript, and this practice page is where I experiment and refine my skills.
+      Feel free to take a look around, and I hope you find something inspiring or interesting.
+      Your feedback and suggestions are always welcome as I continue to learn and improve. Thank you for visiting.
+
+<br>
+<br>
+<br>
+
+          - Ibrahim
+</i>
+    
+    </head>
+
+
+<body  style="font-family: Helvetica">
+ <!--This is the content of the page 
+    (this may be why its reffered to as the body)--> 
+    
+    <hr>
+
+    <h1> <b>Headings</b></span></h1>
+    <p>
+        HTML header tags are used to define headings within a 
+        webpage, structuring content hierarchically to convey 
+        importance and organization. They range from &lt h1 &gt to 
+        &lt h6 &gt, with &lt h1 &gt being the most significant and
+        &lt h6 &gt the least. For example: </p>
+       
+    <h1>This is the largest text </h1>
+    <h2>This is the second largest text</h2>
+    <h3>This is the third largest text</h3>
+    <h4>This is the fourth largest text</h4>
+    <h5>This is the fifth largest text</h5>
+    <h6>This is the smallest  text </h6>
+
+      </div>
+    <br><!--this adds a line break (a gap between lines)-->
+    
+    
+    <hr>
+
+
+<h1>Paragraphs</h1>
+
+<p>This is a paragraph of text. It can contain sentences, 
+    line breaks, and other content related to a single topic 
+    or idea.</p>
+<p>Another paragraph starts here. It's separate from the previous
+     one, providing a clear distinction between different pieces 
+     of information.</p>
+ <!--a gap will automatically be created between two <p> tags-->
+<hr>
+<h1>Hyperlinks </h1>
+
+<a href="https://www.google.com"target =_self> <!--The href must be inside the first <a> tag and contain the link in the " " -->
+This hyperlink leads to google in the same tab<!--the text inbetween the two <a> tags will then be become a hyperlink highlighted in blue -->
+</a> 
+
+<!--Target=_self will open the link in the same tab , (this is the default)-->
+<br>
+<a href="https://www.google.com" Target ="_blank">    
+This hyperlink leads to google in a new tab
+</a>
+<!--Target_blank will open the link in a new tab-->
+
+<br>
+<a href="https://www.google.com" target="_blank" title="This leads to google in a new tab">
+    <!--The title will display text in a pop up box when hovered over-->
+Hover over this link to read the title
+</a> 
+
+<br>
+<a href="mailto:ibrahim.al.khalil.mohamed@gmail.com"> <!--mailto:example@example.com will send an email-->
+Click here to send an email
+</a>
+
+<hr>
+<h1>Images</h1>
+<img src="images/Mountain.jpg" title="This is an image of a mountain in the swiss alps" height=250 alt="This is an image of a Mountain">
+
+<p> The above image has a height of 250 (hover for more information) </p>
+ 
+<img src="images/Mountain.jpg" width="250" alt="This is an image of a Mountain" >
+
+<!--The image must go in the source (src=" ") the height and width can be adjusted (height=" or" width"") it is good practice to add in alt 
+text , it will give readers a explanation of the missing content should it fail to load or they are using a screen reader-->
+
+<p> The above image has a width of 250 </p>
+
+<a href="https://en.wikipedia.org/wiki/Matterhorn">
+<img src="images/Mountain.jpg" width="250" height="250" title="This is the Matterhorn , a mountain in the swiss alps, click to read more" alt="This is an image of a Mountain" >
+</a>
+<!--putting an image in between two <a> tags and adding a url in the href=" " will turn the image into a hyperlink when clicked -->
+
+<p>The above image has a height and width of 250 (Click for more information)</p>
+
+<hr>
+
+<h1> Audio </h1>
+
+<audio src="Subaru Impreza wrx flutter.webm" controls 
+title="This is a sound of a Subaru Impreza WRX STI">
+
+<!--The title will display text in a pop up box when hovered over-->
+
+</audio>
+
+<!--The audio element needs a closing tag (</audio>) it seems to differ from the <img> element -->
+<br>
+<p>This is a sound of a <a href="https://en.wikipedia.org/wiki/Subaru_Impreza" 
+    title="This is a sound of a modified Subaru Impreza WRX STI">Subaru</a> (hover for more information)</p>
+
+
+<br>
+
+<audio controls autoplay muted loop >
+
+    <Source src="Car Start Up.mp3" >
+
+This browser does not support HTML5 audio
+
+<!--The text inside the tag will show up if for some reason the browser doesn't display
+the audio file-->
+</audio>
+
+  <!--You can choose to either have the source in the audio tag
+
+
+            <audio src="audiofile1.mp3"> </audio>
+        or if you are working with many files you can put the source in the <audio> tag
+            
+        for example :
+    
+    <audio> 
+
+        <source src="audiofile1.mp3">
+        <source src="audiofile2.mp3">
+        <source src="audiofile3.mp3">
+
+
+    </audio>
+    -->
+
+<p> This is a looping sound of a car , unmute to hear  </p>
+    
+<hr>
+
+<h1>Videos</h1>
+
+<video autoplay loop muted height="250" 
+alt="This is a video of a modified Subaru Impreza WRX STI 
+driving around a city">
+
+
+
+<source src="images/Subaru Impreza wrx flutter.webm">
+<source src="images/Subaru Impreza wrx flutter.mov">
+<source src="images/Subaru Impreza wrx flutter.mp4">
+
+This browser does not support HTML5 video
+</video>
+
+<br>
+
+<p>The above video has a height of 250 , it is playing automatically
+    and is muted. It lacks controls so it <br> is set to loop.  
+</p>
+
+<br>
+
+<video controls  height="350" 
+title="This is a Subaru Impreza WRX STI. It has a turbo engine which has been modified to 
+give it the (Stututututu) sound. This is known as Turbo flutter aka compressor surge" 
+alt="This is a video of a modified Subaru Impreza WRX STI 
+driving around a city">
+    
+<source src="images/Subaru Impreza wrx flutter.webm">
+<source src="images/Subaru Impreza wrx flutter.mov">
+<source src="images/Subaru Impreza wrx flutter.mp4">
+    
+This browser does not support HTML5 video
+
+</video>
+
+<p>The above video has a height of 350. 
+    The boolean attribute of "controls" is applied so it is freely
+    manipulable by the viewer (hover for more information)
+</p>
+
+
+<hr>
+
+<h1>Text Formatting</h1>
+
+<!--Text formatting tags-->
+
+<p>This is normal text </p>
+<p>This is <b>bold</b> text </p>
+<!--The <b> tag turns any text inside it bold-->
+<p>This is <i>italic</i> text </p>
+<!--The <i> tag turns any text inside it italic-->
+<p>This is <big> big </big> text </p>
+<!--The <big> tag turns any text inside it big-->
+<p>This is <small> small </small> text </p>
+<!--The <small> tag turns any text inside it small-->
+<p>This is <sub> subscript </sub> text </p>
+<!--The <sub> tag turns any text inside it into subscript-->
+<p>This is <sup> superscript </sup> text </p>
+<!--The <sup> tag turns any text inside it into superscript
+    subscript is below like subtitle, superscript is above-->
+<p>This is <ins>inserted</ins> text </p>
+<!--The <ins> tag makes any text inside it inserted , this is
+    better known as underlined-->
+<p>This is <del>deleted</del> text </p>
+<!--The <del> text makes any text inside it deleted , what
+     this means is it puts a line through it much like how
+    someone would do when writing on paper if they were to
+    make a mistake-->
+<p>This is <mark>marked</mark> text </p>
+<!--The <mark> tag makes any text inside it marked , simply 
+    this makes the text highlighted-->
+
+
+<hr>
+
+<h1>Lists </h1>
+
+<h3>Unordered List</h3>
+
+<ul>
+
+    <!--the <ul> tag stands for unordered list-->
+
+    <li> Pizza dough </li>
+    <li> Cheese </li>
+    <li> Tomato sauce</li>
+    <li> Toppings </li>
+
+<!--the listed items must go in between the <ul> tags and 
+    inside the <li> tags
+    -->
+
+
+
+</ul>
+
+<h3>Ordered List</h3>
+
+<p> This can either be in :</p>
+
+<ol type="1">
+
+<!--the type attribute allows you to choose whether you would 
+like your list to be in numbers letters or roman numerals-->
+
+<!--type="1" is numbers -->
+    <li> Numbers</li>
+    <li> Letters</li>
+    <li> Or Roman numerals 
+
+        <ol>
+
+            <li>You can also create a nested list </li>
+
+                    <li>within a list</li>
+
+        </ol>
+
+    </li>
+
+</ol>
+
+<ol type="A">
+
+<!--type="A" is letters-->
+
+    <li> This </li>
+    <li> Is </li>
+    <li> in letters</li>
+
+
+</ol>
+
+<ol type="I">
+
+<!--type="I" is Roman numerals-->
+    
+    <li> This</li>
+    <li> Is</li>
+    <li> Roman numerals</li>
+
+    </ol>
+ 
+<h3>DescriptionList</h3>
+
+<dl>
+<!--The dl tag stands for Description list-->
+
+    <dt> HTML </dt>
+    <dd> (Hyper Text Markup Language) This adds structure to a webpage</dd>
+
+<!--The <dt> tag stands for description term
+    The <dd> tag stands for description defintion 
+    simply put the <dt> is term you want to define 
+    or describe etc and the <dd> is the definition
+    that will appear adjacent to the left underneath
+    In Description lists each list item is a pair of
+    terms and defintions-->
+
+    <dt> CSS </dt>
+    <dd>(Cascading Style Sheets) This adds style to a webpage</dd>
+
+    <dt>JavaScript</dt>
+    <dd>This adds functionality to a webpage</dd>
+
+</dl>
+
+<hr>
+
+<h1>Tables </h1>
+
+<p>
+    Tables in HTML are structures used to organize and display
+     data in rows and columns. They consist of elements like
+     <span><b> &lt table &gt, &lt tr &gt , &lt td &gt, and 
+        &lt th &gt</b></span>, 
+      allowing for the creation of grids or complex layouts.
+       Tables are versatile tools for presenting information 
+       systematically on web pages. An example of how this is utilised
+       can be found below:</p>
+
+<h3>Working hours <small>(dont hover)</small></h3>
+
+<table title="Nothing to see here" bgcolor="black" width="620 ">
+<!--here the bgcolor changes the colour of the lines
+the width changes the width of the whole table-->
+<tr bgcolor="green" align="Center">
+<!--here the bgcolor changes the colour of the cells
+the align changes where the text is alligned-->
+
+    <th width="150">Monday</th>
+    <th width="150">Tuesday</th>
+    <th width="150">Wednesday</th>
+    <th width="150">Thursday</th>
+    <th width="150">Friday</th>
+    <th width="150">Saturday</th>
+    <th width="150">Sunday</th>
+<!--The width of the cells should add up to the
+    total width of the table -->
+
+
+</tr>
+<tr bgcolor="lightgreen" align="center">
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>9-5</td>
+    <td>Closed</td>
+    <td>Closed</td>
+
+<!--The <td> differs from the <th> tag
+    this is beacuse the <th> is inherently
+        bold and the <td> tag is not-->
+
+</tr>
+
+
+</table>
+
+<div style="background-color :rgb(4, 20, 20) ;">
+
+    <!--div defines a divison of a document -->
+
+<hr>
+
+<h1 style="background-color: black ; color : white">
+    <!--to add multiple css values they must be seperated 
+        with a semicolon-->
+    <ins>Colours</ins></h1>
+
+<h2 style="color :red;">Apple</h2>
+
+<p style="color :white">The apple is one of the pome (fleshy) fruits. 
+    Apples at harvest vary widely in size, shape, 
+    colour, and acidity, but most are fairly round and some 
+    shade of <span style="color: red"> red </span>or 
+    <span style =color:yellow>yellow</span> . 
+    </p>
+
+
+<!--span is used to add markup to text or a portion of 
+    document , one example of how this is useful is how above
+    saved me from having to create another <p> tag and allowed
+    me to add markup in the same section-->
+
+<!--For colour names only the name is needed-->
+
+<h2 style="color: rgb(219, 92, 13) ;">Orange</h2>
+
+<!--For rgb colors the title which is rgb and the  
+    parenthesis is needed e.g - rgb()-->
+<p style="color :white">The fruit is a modified berry known as a hesperidium, 
+    and the flesh is divided into segments called carpels. 
+    The usual shape of the sweet-orange fruit is round and 
+    the colour of its pulp <span style="color :orange">
+    orange</span>, but there are variations. 
+    The mandarin, for example, is distinctly flattened, and 
+    the blood orange has <span style="color:red">red</span>
+    pulp</p>
+
+
+<h2 style="color :#9d0ddb ;">Grape</h2>
+<!--For hex colors , only the colour value is needed-->
+<p style="color :white">
+    A grape is a fruit, botanically a berry, of genus Vitis 
+    and family Vitaceae. Grapes grow in clusters of 15–300 in
+     different colors (<span style="color:crimson">crimson
+    </span>, <span style="color:black ;background-color:
+    white">black</span>, <span style="color:darkblue">
+    dark blue</span>, <span style="color:yellow">yellow</span>, 
+     <span style="color:green">green</span>, <span style=
+     "color:orange">orange</span>, <span style="color:
+     pink">pink</span>, and <span style="color:white ; 
+     background-color:black">
+     white</span>) and are specifically a 
+     nonclimacteric type and deciduous crop.
+
+</p>
+
+
+
+
+
+<hr>
+</div>
+
+<hr>
+
+<h1>iFrames</h1>
+
+<p> iframes are like mini windows in a webpage, allowing
+     you to display content from other sources seamlessly. 
+     These versatile elements let me embed videos, maps, or 
+     other websites into my own page.Some websites employ 
+     techniques to block the embedding of their content within 
+     iframes for various reasons, like preventing security 
+     vulnerabilities, preserving their branding, or controlling 
+     how their content is accessed or shared.Iframes are 
+     commonly used in online advertising to seamlessly 
+     display ads across various websites. Here's an example of
+      how an iframe might be used to display an ad : </p>
+
+<iframe src="Advertisement.html" width="640"
+ height="150" style="border : 0"> </iframe>
+
+
+<hr>
+
+<h1>Buttons</h1>
+
+<p>
+    Buttons in HTML are essential elements for user interaction
+    on web pages. They are created using the &ltbutton&gt tag
+    or &ltinput&gt elements with the type="button" attribute.
+    Buttons provide a clickable interface, allowing users to
+    trigger actions or submit forms. With CSS styling, buttons
+    can be customized in terms of appearance, size, color, and
+    hover effects, enhancing the overall user experience.
+    They play a crucial role in navigation, form submissions,
+    and executing various functions within a website or web
+    application. To demonstrate , here is a button below :</p>
+
+<a href="https://www.google.com" target="_blank"> 
+
+<button title="This leads to Google" style="background-color: red ; color :blue ; border-radius :4px"> click me </button>
+</a>
+
+
+
+<h1>
+<a href="PracticePage2.html" target="_self" 
+title="This takes you to page 2">
+    Page 2
+</a>
+</h1>
+
+
+</body>
+
+</html> <!--Document be in between two of these 
+    (its not enough just to end with it, 
+    it must also be after !Doctype at the start) --> 
