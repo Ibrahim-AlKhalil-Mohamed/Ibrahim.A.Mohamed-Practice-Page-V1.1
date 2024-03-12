@@ -8,13 +8,15 @@
    
     
     <title>Practice</title>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <meta name="charset" content="UTF-8">
     <!--This allows you to choose a character set such as ASCII
     ANSI and UNICODE. Unicode (UTF-8) Covers mosts characters and 
     symbols in every written language so would be a great option-->
     <meta name="viewport" content="width=device-width,
-    initial-scale=0.6">
+    initial-width=600px">
     <!--This allows the page size to be optimised for different
     device sizes such as mobile-->
     <meta name="keywords" content="Ibrahims practice page">
@@ -35,12 +37,18 @@
      refresh , this is quantified in seconds curently it is left
      blank so will not refresh-->
 
+
+
 <br>
 <br>
 <h1 align="center">Practice Page</h1>    
+<div style="text-align : center"> 
+    <img draggable="false" src="images/1.png" height="400">
+</div>
+
 
 <i>
-     Welcome to my practice page, here I've been diving into the world of HTML, CSS, and JavaScript, and this practice page is where I experiment and refine my skills.
+     Welcome to my practice page, here I've been diving into the world of<span style="color : red"> HTML </span>, <span style="color : rgb(89, 0, 255)"> CSS</span>, and <span style="color : rgb(255, 123, 0)">JavaScript</span>, and this practice page is where I experiment and refine my skills.
       Feel free to take a look around, and I hope you find something inspiring or interesting.
       Your feedback and suggestions are always welcome as I continue to learn and improve. Thank you for visiting.
 
@@ -50,24 +58,248 @@
 
           - Ibrahim
 </i>
-    
+<br>
+<br>
+<br>
     </head>
+    
+        
 
-
-<body  style="font-family: Helvetica">
+<body  style="font-family: Space Grotesk ; color :rgb(0, 0, 0) ; background-color: rgb(255, 255, 255);">
  <!--This is the content of the page 
     (this may be why its reffered to as the body)--> 
     
-    <hr>
+    <hr width="70%" color="black" size="0.8px">
 
-    <h1> <b>Headings</b></span></h1>
+<h1>Forms </h1>
+
+<p> Forms in HTML are fundamental components for collecting and 
+    processing user input on web pages. They are constructed 
+    using the <mark> &ltform&gt </mark> tag and contain various input elements 
+        such as text fields, checkboxes, radio buttons, and 
+        dropdown menus. Forms enable users to submit data, 
+        interact with applications, and perform actions like 
+        signing up, logging in, or providing feedback. By 
+        utilizing CSS styling, forms can be visually enhanced 
+        to align with the website's design aesthetic, ensuring 
+        a cohesive user experience. From contact forms to 
+        registration pages, forms facilitate crucial 
+        interactions between users and websites, making 
+        them indispensable elements in web development. 
+        Below, explore some examples of forms :</p>
+
+
+<div style="text-align: center">
+
+<h4>Sign in</h4>
+
+<form action="login.html" target="_blank" method="post"> 
+<label  for="username" align=center>
+    User Name or Email Address </label>
+
+<br>
+<br>
+
+<input type="text" required id="username" name="username" 
+placeholder="@ / --" autocomplete="email">
+
+<br>
+<br>
+
+<label for="password">Password</label>
+
+<br>
+<br>
+
+<input required placeholder="Password" id="password" 
+style="font-family : space grotesk" type="password"  name="password">
+
+<input type="submit" > 
+
+
+
+</form>
+
+</div>
+<br>
+<br>
+<br>
+
+
+<h3> Membership Registration Form</h3>
+
+<form> 
+
+
+<label for="Name"> Name </label>  
+<br>  
+
+<input type="text" id="Name" placeholder=" Name " required 
+name="name"> 
+<br>  
+<br>
+
+<label for="email">Email</label>
+
+<br>  
+ 
+<input type="email" placeholder="email@example.com" 
+id="email" name="email" required>
+
+<br>
+<br>  
+<label for="password2">Password</label>
+
+<br>  
+
+<input type="password" placeholder="Choose Password" id="password2" 
+name="password2" required>
+<br>  
+<br>
+<label for="password3" required>Re-type Password</label>
+
+<br>  
+
+<input type="password" placeholder="Retype Password" 
+id="password3" name="password3">
+
+<br>  
+<br>  
+
+<p>Gender</p>
+
+<label for="Male">Male</label>
+<input type="radio" name="gender" value="Male" id="Male" >
+
+<label for="female">Female</label>
+<input type="radio" name="gender" value="Female" id="female">
+
+<br>
+<br>
+
+<label for="Phone Number" >Phone Number</label>
+
+<br>  
+
+<input type="tel" placeholder="+44" 
+id="Phone Number" min="1" maxlength="15" name="phonenumber">
+
+<br>
+<br>
+
+<label for="dob">Date of Birth</label>
+
+<br>
+
+<input type="date" id="dob" name="dob" required>
+
+
+<br>
+<br>
+
+<label for="ml">Membership length (months)</label>
+
+<br>
+
+<input type="number" required min="1" max="5" 
+placeholder="1" id="ml" name="ml">
+
+
+<br>
+<br>
+
+<label for="MT">Membership Type</label>
+
+<br>
+<select id="MT" name="MT">
+<option value="B" name="B">Basic</option>
+<option Value="P" name="P">Premium</option>
+<option Value="V" name="V">Vip</option>
+ </select>
+<br>
+<br>
+
+<label>Would you like to subscribe to our newsletter for 
+    exclusive updates and promotions? Tick the box to subscribe:</label>
+<br>
+<br>
+ <input type="checkbox">
+
+<br>
+<br>
+
+ <input type="reset"> <input type="submit">
+</form>
+
+
+
+    <h1>Buttons</h1>
+
+    <p>
+        Buttons in HTML are essential elements for user interaction
+        on web pages. They are created using the &ltbutton&gt tag
+        or &ltinput&gt elements with the type="button" attribute.
+        Buttons provide a clickable interface, allowing users to
+        trigger actions or submit forms. With CSS styling, buttons
+        can be customized in terms of appearance, size, color, and
+        hover effects, enhancing the overall user experience.
+        They play a crucial role in navigation, form submissions,
+        and executing various functions within a website or web
+        application. To demonstrate , here are some buttons below :</p>
+    
+    <br>
+    <br>
+    <br>
+    
+    <div style= "text-align : center">
+    <a href="https://www.google.com" target="_blank"> 
+    
+    <button title="This leads to Google" 
+    style="background-color: rgb(0, 0, 0) ; color 
+    :rgb(255, 255, 255) ; border-radius :9px ; font-family:
+     Space Grotesk ; height: 60px; width : 200px"> Click me! </button>
+    </a>
+    
+    <br>
+    <br>
+    
+    <button onclick = "Switchtext()" style="Color: white ; background-color: black ;
+    height :60px ; width : 200px ; border-radius : 9px">
+    
+    
+    
+    <b> Switch Thumb Direction</b>
+    
+    </button>
+    <br>
+    <br> 
+    
+    <h1 id="img1">👍</h1>
+    
+    <p1>(refresh to reset)</p1>
+    </div>
+    
+    <script>
+    function Switchtext(){
+    
+        document.getElementById ("img1").innerHTML = "<h1>👎</h1>";
+    }
+    
+    </script>
+    
+
+    <h1> Headings</span></h1>
     <p>
         HTML header tags are used to define headings within a 
         webpage, structuring content hierarchically to convey 
         importance and organization. They range from &lt h1 &gt to 
         &lt h6 &gt, with &lt h1 &gt being the most significant and
         &lt h6 &gt the least. For example: </p>
-       
+
+<br>
+<br>
+
+       <div align="center">
     <h1>This is the largest text </h1>
     <h2>This is the second largest text</h2>
     <h3>This is the third largest text</h3>
@@ -79,7 +311,7 @@
     <br><!--this adds a line break (a gap between lines)-->
     
     
-    <hr>
+    <hr width="10%">
 
 
 <h1>Paragraphs</h1>
@@ -91,7 +323,7 @@
      one, providing a clear distinction between different pieces 
      of information.</p>
  <!--a gap will automatically be created between two <p> tags-->
-<hr>
+<hr  size="0.2px" width="61%" align="left">
 <h1>Hyperlinks </h1>
 
 <a href="https://www.google.com"target =_self> <!--The href must be inside the first <a> tag and contain the link in the " " -->
@@ -116,9 +348,17 @@ Hover over this link to read the title
 Click here to send an email
 </a>
 
-<hr>
-<h1>Images</h1>
+
+<h1>Images:</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div style="text-align : center">
+
 <img src="images/Mountain.jpg" title="This is an image of a mountain in the swiss alps" height=250 alt="This is an image of a Mountain">
+
 
 <p> The above image has a height of 250 (hover for more information) </p>
  
@@ -135,17 +375,23 @@ text , it will give readers a explanation of the missing content should it fail 
 <!--putting an image in between two <a> tags and adding a url in the href=" " will turn the image into a hyperlink when clicked -->
 
 <p>The above image has a height and width of 250 (Click for more information)</p>
+</div>
 
-<hr>
+
+<hr width="94%" align="center">
 
 <h1> Audio </h1>
 
+<div align="center">
+
 <audio src="Subaru Impreza wrx flutter.webm" controls 
-title="This is a sound of a Subaru Impreza WRX STI">
+title="This is a sound of a Subaru Impreza WRX STI" >
 
 <!--The title will display text in a pop up box when hovered over-->
 
 </audio>
+
+
 
 <!--The audio element needs a closing tag (</audio>) it seems to differ from the <img> element -->
 <br>
@@ -184,10 +430,14 @@ the audio file-->
     -->
 
 <p> This is a looping sound of a car , unmute to hear  </p>
-    
-<hr>
+
+</div>
+
+<hr width="40%">
 
 <h1>Videos</h1>
+
+<div align="center">
 
 <video autoplay loop muted height="250" 
 alt="This is a video of a modified Subaru Impreza WRX STI 
@@ -229,11 +479,15 @@ This browser does not support HTML5 video
     manipulable by the viewer (hover for more information)
 </p>
 
-
+</div>
 <hr>
 
 <h1>Text Formatting</h1>
+<br>
+<br>
+<br>
 
+<div align="center"> 
 <!--Text formatting tags-->
 
 <p>This is normal text </p>
@@ -262,6 +516,11 @@ This browser does not support HTML5 video
 <!--The <mark> tag makes any text inside it marked , simply 
     this makes the text highlighted-->
 
+</div>
+
+<br>
+<br>
+<br>
 
 <hr>
 
@@ -371,9 +630,12 @@ like your list to be in numbers letters or roman numerals-->
        systematically on web pages. An example of how this is utilised
        can be found below:</p>
 
-<h3>Working hours <small>(dont hover)</small></h3>
+<h3 align="center">Working hours <small>(hover for more information)</small></h3>
 
-<table title="Nothing to see here" bgcolor="black" width="620 ">
+<br>
+<br>
+
+<table align="center" title="Nothing to see here" bgcolor="black" width="620 ">
 <!--here the bgcolor changes the colour of the lines
 the width changes the width of the whole table-->
 <tr bgcolor="green" align="Center">
@@ -409,6 +671,11 @@ the align changes where the text is alligned-->
 
 
 </table>
+
+<br>
+<br>
+<br>
+
 
 <div style="background-color :rgb(4, 20, 20) ;">
 
@@ -481,7 +748,8 @@ the align changes where the text is alligned-->
 
 <h1>iFrames</h1>
 
-<p> iframes are like mini windows in a webpage, allowing
+<p> iframes are  HTML documents embedded inside another HTML 
+    document , like mini windows in a webpage, allowing
      you to display content from other sources seamlessly. 
      These versatile elements let me embed videos, maps, or 
      other websites into my own page.Some websites employ 
@@ -492,32 +760,16 @@ the align changes where the text is alligned-->
      commonly used in online advertising to seamlessly 
      display ads across various websites. Here's an example of
       how an iframe might be used to display an ad : </p>
+<br>
+<div style="text-align : center">
+<iframe src="Advertisement.html" width="640 "
+ height="150" style="border : 0" > </iframe>
+</div>
 
-<iframe src="Advertisement.html" width="640"
- height="150" style="border : 0"> </iframe>
-
+<br>
+<br>
 
 <hr>
-
-<h1>Buttons</h1>
-
-<p>
-    Buttons in HTML are essential elements for user interaction
-    on web pages. They are created using the &ltbutton&gt tag
-    or &ltinput&gt elements with the type="button" attribute.
-    Buttons provide a clickable interface, allowing users to
-    trigger actions or submit forms. With CSS styling, buttons
-    can be customized in terms of appearance, size, color, and
-    hover effects, enhancing the overall user experience.
-    They play a crucial role in navigation, form submissions,
-    and executing various functions within a website or web
-    application. To demonstrate , here is a button below :</p>
-
-<a href="https://www.google.com" target="_blank"> 
-
-<button title="This leads to Google" style="background-color: red ; color :blue ; border-radius :4px"> click me </button>
-</a>
-
 
 
 <h1>
