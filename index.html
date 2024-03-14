@@ -16,7 +16,7 @@
     ANSI and UNICODE. Unicode (UTF-8) Covers mosts characters and 
     symbols in every written language so would be a great option-->
     <meta name="viewport" content="width=device-width,
-    initial-width=600px">
+    initial-scale=1.0">
     <!--This allows the page size to be optimised for different
     device sizes such as mobile-->
     <meta name="keywords" content="Ibrahims practice page">
@@ -43,7 +43,7 @@
 <br>
 <h1 align="center">Practice Page</h1>    
 <div style="text-align : center"> 
-    <img draggable="false" src="images/1.png" height="400">
+    <img draggable="false" src="images/1.png" width="58%">
 </div>
 
 
@@ -357,24 +357,26 @@ Click here to send an email
 <br>
 <div style="text-align : center">
 
-<img src="images/Mountain.jpg" title="This is an image of a mountain in the swiss alps" height=250 alt="This is an image of a Mountain">
+<img src="images/Mountain.jpg" title="This is an image of 
+a mountain in the swiss alps" width="60%"
+alt="This is an image of a Mountain">
 
 
-<p> The above image has a height of 250 (hover for more information) </p>
+<p> The above image has a width of 60%  (hover for more information) </p>
  
-<img src="images/Mountain.jpg" width="250" alt="This is an image of a Mountain" >
+<img src="images/Mountain.jpg" width="25%" height="25%" alt="This is an image of a Mountain" >
 
 <!--The image must go in the source (src=" ") the height and width can be adjusted (height=" or" width"") it is good practice to add in alt 
 text , it will give readers a explanation of the missing content should it fail to load or they are using a screen reader-->
 
-<p> The above image has a width of 250 </p>
+<p> The above image has a width of 25% </p>
 
 <a href="https://en.wikipedia.org/wiki/Matterhorn">
-<img src="images/Mountain.jpg" width="250" height="250" title="This is the Matterhorn , a mountain in the swiss alps, click to read more" alt="This is an image of a Mountain" >
+<img src="images/Mountain.jpg" width="25%" height="25" title="This is the Matterhorn , a mountain in the swiss alps, click to read more" alt="This is an image of a Mountain" >
 </a>
 <!--putting an image in between two <a> tags and adding a url in the href=" " will turn the image into a hyperlink when clicked -->
 
-<p>The above image has a height and width of 250 (Click for more information)</p>
+<p>The above image has a height of 25% and width of 25 (Click for more information)</p>
 </div>
 
 
@@ -384,7 +386,7 @@ text , it will give readers a explanation of the missing content should it fail 
 
 <div align="center">
 
-<audio src="Subaru Impreza wrx flutter.webm" controls 
+<audio src="/images/Subaru Impreza wrx flutter.mp3" controls 
 title="This is a sound of a Subaru Impreza WRX STI" >
 
 <!--The title will display text in a pop up box when hovered over-->
@@ -401,7 +403,7 @@ title="This is a sound of a Subaru Impreza WRX STI" >
 
 <br>
 
-<audio controls autoplay muted loop >
+<audio controls autoplay muted  >
 
     <Source src="Car Start Up.mp3" >
 
@@ -429,7 +431,7 @@ the audio file-->
     </audio>
     -->
 
-<p> This is a looping sound of a car , unmute to hear  </p>
+<p> This is a  sound of a car engine starting up  </p>
 
 </div>
 
@@ -439,7 +441,7 @@ the audio file-->
 
 <div align="center">
 
-<video autoplay loop muted height="250" 
+<video autoplay loop muted width="45%" 
 alt="This is a video of a modified Subaru Impreza WRX STI 
 driving around a city">
 
@@ -454,17 +456,17 @@ This browser does not support HTML5 video
 
 <br>
 
-<p>The above video has a height of 250 , it is playing automatically
+<p>The above video has a width of 45% , it is playing automatically
     and is muted. It lacks controls so it <br> is set to loop.  
 </p>
 
 <br>
 
-<video controls  height="350" 
+<video controls  width="55%" 
 title="This is a Subaru Impreza WRX STI. It has a turbo engine which has been modified to 
 give it the (Stututututu) sound. This is known as Turbo flutter aka compressor surge" 
 alt="This is a video of a modified Subaru Impreza WRX STI 
-driving around a city">
+driving around a city" ?transparent-background="0">
     
 <source src="images/Subaru Impreza wrx flutter.webm">
 <source src="images/Subaru Impreza wrx flutter.mov">
@@ -474,7 +476,7 @@ This browser does not support HTML5 video
 
 </video>
 
-<p>The above video has a height of 350. 
+<p>The above video has a width of 55%. 
     The boolean attribute of "controls" is applied so it is freely
     manipulable by the viewer (hover for more information)
 </p>
@@ -635,42 +637,39 @@ like your list to be in numbers letters or roman numerals-->
 <br>
 <br>
 
-<table align="center" title="Nothing to see here" bgcolor="black" width="620 ">
-<!--here the bgcolor changes the colour of the lines
-the width changes the width of the whole table-->
-<tr bgcolor="green" align="Center">
-<!--here the bgcolor changes the colour of the cells
-the align changes where the text is alligned-->
+<table align="center" title="Nothing to see here" bgcolor="black" 
+width="7% " >
+   
+    <!--here the bgcolor changes the colour of the lines
+    the width changes the width of the whole table-->
+    <tr bgcolor="green" align="Center">
+    <!--here the bgcolor changes the colour of the cells
+    the align changes where the text is alligned-->
+    
+        <th width="1">Monday</th>
+        <th width="1">Tuesday</th>
+        <th width="1">Wednesday</th>
+     
+    <!--The width of the cells should add up to the
+        total width of the table -->
+    
+    
+    </tr>
+    <tr bgcolor="lightgreen" align="center">
+        <td width="1">9-5</td>
+        <td width="1">9-5</td>
+        <td width="1" >9-5</td>
+       
+    
+    <!--The <td> differs from the <th> tag
+        this is beacuse the <th> is inherently
+            bold and the <td> tag is not-->
+    
+    </tr>
+    
+    
+    </table>
 
-    <th width="150">Monday</th>
-    <th width="150">Tuesday</th>
-    <th width="150">Wednesday</th>
-    <th width="150">Thursday</th>
-    <th width="150">Friday</th>
-    <th width="150">Saturday</th>
-    <th width="150">Sunday</th>
-<!--The width of the cells should add up to the
-    total width of the table -->
-
-
-</tr>
-<tr bgcolor="lightgreen" align="center">
-    <td>9-5</td>
-    <td>9-5</td>
-    <td>9-5</td>
-    <td>9-5</td>
-    <td>9-5</td>
-    <td>Closed</td>
-    <td>Closed</td>
-
-<!--The <td> differs from the <th> tag
-    this is beacuse the <th> is inherently
-        bold and the <td> tag is not-->
-
-</tr>
-
-
-</table>
 
 <br>
 <br>
