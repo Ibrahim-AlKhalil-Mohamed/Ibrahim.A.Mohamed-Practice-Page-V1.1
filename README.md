@@ -32,7 +32,7 @@ This is the main file of the project. It includes various HTML elements to demon
 - Ordered lists (numbers, letters, Roman numerals)
 - Description lists
 - Tables: Basic table structure demonstrating rows, columns, and header cells.
-- Colors: Demonstration of text and background colors using different methods (color names, RGB, and hex codes).
+- Colors: Demonstration of text and background colors using Inline CSS using different methods (color names, RGB, and hex codes).
 - iFrames: Embedding an iframe to display external content , embedded an example advertisement.
 #### Footer:
 
