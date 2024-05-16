@@ -54,4 +54,4 @@ This is the main file of the project. It includes various HTML elements to demon
 ## Feedback
 Your feedback and suggestions are always welcome. Feel free to explore the page, experiment with the elements, and let me know if you have any comments or questions. Thank you for visiting!
 
-- Ibrahim Mohamed, 2024 ©
+- © Ibrahim Mohamed, 2024
