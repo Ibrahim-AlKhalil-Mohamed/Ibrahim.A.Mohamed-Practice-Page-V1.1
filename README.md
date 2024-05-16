@@ -33,7 +33,7 @@ This is the main file of the project. It includes various HTML elements to demon
 - Description lists
 - Tables: Basic table structure demonstrating rows, columns, and header cells.
 - Colors: Demonstration of text and background colors using different methods (color names, RGB, and hex codes).
-- iFrames: Embedding an iframe to display external content.
+- iFrames: Embedding an iframe to display external content , embedded an example advertisement.
 #### Footer:
 
 - A link to the second page ("Page 2")
