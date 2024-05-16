@@ -16,7 +16,7 @@ This is the main file of the project. It includes various HTML elements to demon
 - Header: A centered main heading ("Practice Page") with an introductory image.
 - Introduction: Italicized welcome message.
 - Forms:
-- Sign-in form with username and password fields.
+- Sign-in form with username and password fields & redirect to spoof login loading page.
 - Membership registration form with fields for name, email, password, gender, phone number, date of birth, membership length, and type.
 - Buttons:
 - Buttons for Google redirection and a text switch feature using JavaScript.
