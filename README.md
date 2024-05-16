@@ -2,6 +2,7 @@
 Welcome to Ibrahim's first HTML project! This project showcases the fundamental elements of HTML, CSS, and JavaScript. Below you'll find an overview of the project structure and features.
 
 ##Project Structure
+
 ###index.html
 This is the main file of the project. It includes various HTML elements to demonstrate different web development concepts. Here's what you'll find:
 
@@ -37,8 +38,10 @@ This is the main file of the project. It includes various HTML elements to demon
 
 - A link to the second page ("Page 2")
 - Copyright information
+
 ###Other Files
 -Advertisement.html: An example of an iframe source to display an advertisement.
+
 ##Features
 - Responsive Design: The page is optimized for different device sizes using the viewport meta tag.
 - Interactive Elements: Includes forms, buttons, and JavaScript functionality to enhance user interaction.
