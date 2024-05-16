@@ -40,7 +40,7 @@ This is the main file of the project. It includes various HTML elements to demon
 - Copyright information
 
 ### Other Files
--Advertisement.html: An example of an iframe source to display an advertisement.
+- Advertisement.html: An example of an iframe source to display an advertisement.
 
 ## Features
 - Responsive Design: The page is optimized for different device sizes using the viewport meta tag.
