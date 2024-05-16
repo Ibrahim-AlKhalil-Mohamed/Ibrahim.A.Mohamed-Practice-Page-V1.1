@@ -1,7 +1,7 @@
 # Ibrahim's First HTML Project
 Welcome to Ibrahim's first HTML project! This project showcases the fundamental elements of HTML, CSS, and JavaScript. Below you'll find an overview of the project structure and features.
 
-##Project Structure
+## Project Structure
 
 ###index.html
 This is the main file of the project. It includes various HTML elements to demonstrate different web development concepts. Here's what you'll find:
