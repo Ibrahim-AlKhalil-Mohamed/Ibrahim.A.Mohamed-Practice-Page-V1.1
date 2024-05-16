@@ -3,15 +3,15 @@ Welcome to Ibrahim's first HTML project! This project showcases the fundamental 
 
 ## Project Structure
 
-###index.html
+### index.html
 This is the main file of the project. It includes various HTML elements to demonstrate different web development concepts. Here's what you'll find:
 
-####1.Head Section:
+#### 1.Head Section:
 
 - Title: "Practice"
 - Meta Tags: Charset, viewport, keywords, description, author, and refresh
 - Links: Google Fonts for custom font and a favicon
-####2.Body Section:
+#### 2.Body Section:
 
 - Header: A centered main heading ("Practice Page") with an introductory image.
 - Introduction: Italicized welcome message.
@@ -34,15 +34,15 @@ This is the main file of the project. It includes various HTML elements to demon
 - Tables: Basic table structure demonstrating rows, columns, and header cells.
 - Colors: Demonstration of text and background colors using different methods (color names, RGB, and hex codes).
 - iFrames: Embedding an iframe to display external content.
-####Footer:
+#### Footer:
 
 - A link to the second page ("Page 2")
 - Copyright information
 
-###Other Files
+### Other Files
 -Advertisement.html: An example of an iframe source to display an advertisement.
 
-##Features
+## Features
 - Responsive Design: The page is optimized for different device sizes using the viewport meta tag.
 - Interactive Elements: Includes forms, buttons, and JavaScript functionality to enhance user interaction.
 - Embedded Media: Audio and video elements to showcase multimedia embedding.
@@ -51,7 +51,7 @@ This is the main file of the project. It includes various HTML elements to demon
 - Getting Started
 - To view the project, open index.html in any web browser. This will display the main page with all the features and examples listed above.
 
-##Feedback
+## Feedback
 Your feedback and suggestions are always welcome. Feel free to explore the page, experiment with the elements, and let me know if you have any comments or questions. Thank you for visiting!
 
 - Ibrahim Mohamed, 2024
