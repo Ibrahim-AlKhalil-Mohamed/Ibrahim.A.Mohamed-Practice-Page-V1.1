@@ -4,7 +4,7 @@ Feel free to explore the different elements and functionalities demonstrated on 
 
 Ibrahim Mohamed
 Hosted on GitHub Pages
-You can view the live version of this project hosted on GitHub Pages [ Here ](https://ibrahimakmohamed.github.io/V1/).
+You can view the live version of this project hosted on GitHub Pages ## [ Here ](https://ibrahimakmohamed.github.io/V1/)
 
 ## Project Structure
 
