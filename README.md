@@ -1,6 +1,9 @@
 # Ibrahim's First HTML Project
 Welcome to Ibrahim's first HTML project! This project showcases the fundamental elements of HTML, CSS, and JavaScript. Below you'll find an overview of the project structure and features.
 
+Hosted on GitHub Pages
+You can view the live version of this project hosted on GitHub Pages (here[]).
+
 ## Project Structure
 
 ### index.html
