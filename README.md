@@ -53,8 +53,6 @@ This is the main file of the project. It includes various HTML elements to demon
 - Embedded Media: Audio and video elements to showcase multimedia embedding.
 - Styling: Uses inline CSS for styling various elements.
 - Hyperlinks: Demonstrates different hyperlink behaviors including opening links in the same or new tabs, and mailto links.
-- Getting Started
-- To view the project, open index.html in any web browser. This will display the main page with all the features and examples listed above.
 
 ## Feedback
 Your feedback and suggestions are always welcome. Feel free to explore the page, experiment with the elements, and let me know if you have any comments or questions. Thank you for visiting!
