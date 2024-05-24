@@ -2,9 +2,9 @@
 <!--notes like these must have at least two dashes before & after the text-->
 
 
-<html > <!--Document should be inside two of these (sandwiched between) -->
+<html> <!--Document should be inside two of these (sandwiched between) -->
 
-<head > <!--This is what is at the top of the page--->
+<head> <!--This is what is not visible of the page--->
    
     
     <title>Practice</title>
@@ -40,11 +40,49 @@
      refresh , this is quantified in seconds curently it is left
      blank so will not refresh-->
 
+</head>
 
 
+
+    
+        
+
+<body  style="font-family: Space Grotesk ; color :rgb(0, 0, 0) ; background-color: rgb(255, 255, 255);">
+ <!--This is the content of the page 
+    (this may be why its reffered to as the body)--> 
+
+ <style>
+#Container{
+
+   width  :  70% ;
+   margin :  auto
+   
+}
+
+@media screen and (max-width : 768px){
+
+#Container{
+
+   width  :  90% ;
+   margin :  auto
+   
+}
+
+   
+}
+
+    
+ </style>  
+   
+   
+   
+   
+<div id="Container"
+   
 <br>
 <br>
 <h1 align="center">Practice Page</h1>    
+
 <div style="text-align : center"> 
     <img draggable="false" src="images/1.png" width="58%">
 </div>
@@ -64,14 +102,7 @@
 <br>
 <br>
 <br>
-    </head>
-    
-        
-
-<body  style="font-family: Space Grotesk ; color :rgb(0, 0, 0) ; background-color: rgb(255, 255, 255);">
- <!--This is the content of the page 
-    (this may be why its reffered to as the body)--> 
-    
+      
     <hr width="70%" color="black" size="0.8px">
 
 <h1>Forms </h1>
@@ -96,7 +127,7 @@
 
 <h4>Sign in</h4>
 
-<form action="./login" target="_blank"> 
+<form action="./login.html" target="_blank"> 
 <label  for="username" align=center>
     User Name or Email Address </label>
 
@@ -255,9 +286,13 @@ placeholder="1" id="ml" name="ml">
     <br>
     
     <div style= "text-align : center">
-    <a href="https://www.google.com" target="_blank"> 
+    <a href="https://images.pexels.com/photos/
+    15360706/pexels-photo-15360706/free-photo-of-
+    landscape-of-palm-trees-and-the-atlas-mountain
+    s-in-marrakech-morocco.jpeg?auto=compress&cs=t
+    inysrgb&w=1260&h=750&dpr=1" target="_blank"> 
     
-    <button title="This leads to Google" 
+    <button title="This leads to a mystery page" 
     style="background-color: rgb(0, 0, 0) ; color 
     :rgb(255, 255, 255) ; border-radius :9px ; font-family:
      Space Grotesk ; height: 60px; width : 200px"> Click me! </button>
@@ -329,19 +364,19 @@ placeholder="1" id="ml" name="ml">
 <hr  size="0.2px" width="61%" align="left">
 <h1>Hyperlinks </h1>
 
-<a href="https://www.google.com"target =_self> <!--The href must be inside the first <a> tag and contain the link in the " " -->
-This hyperlink leads to google in the same tab<!--the text inbetween the two <a> tags will then be become a hyperlink highlighted in blue -->
+<a href="https://www.worldhistory.org/uploads/images/10167.jpg"target =_self> <!--The href must be inside the first <a> tag and contain the link in the " " -->
+This hyperlink leads to a picture of a caravan in the desert<!--the text inbetween the two <a> tags will then be become a hyperlink highlighted in blue -->
 </a> 
 
 <!--Target=_self will open the link in the same tab , (this is the default)-->
 <br>
-<a href="https://www.google.com" Target ="_blank">    
-This hyperlink leads to google in a new tab
+<a href="https://www.worldhistory.org/uploads/images/10167.jpg" Target ="_blank">    
+This hyperlink leads to an image in a new tab
 </a>
 <!--Target_blank will open the link in a new tab-->
 
 <br>
-<a href="https://www.google.com" target="_blank" title="This leads to google in a new tab">
+<a href="https://www.worldhistory.org/uploads/images/10167.jpg" target="_blank" title="This leads to google in a new tab">
     <!--The title will display text in a pop up box when hovered over-->
 Hover over this link to read the title
 </a> 
@@ -374,9 +409,8 @@ text , it will give readers a explanation of the missing content should it fail 
 
 <p> The above image has a width of 25% </p>
 
-<a href="https://en.wikipedia.org/wiki/Matterhorn">
-<img src="images/Mountain.jpg" width="25%" height="25%" title="This is the Matterhorn , a mountain in the swiss alps, click to read more" alt="This is an image of a Mountain" >
-</a>
+<img src="images/Mountain.jpg" width="25%" height="25%" title="This is the Matterhorn , a mountain in the swiss alps" alt="This is an image of a Mountain" >
+
 <!--putting an image in between two <a> tags and adding a url in the href=" " will turn the image into a hyperlink when clicked -->
 
 <p>The above image has a height of 25 and width of 25 (Click for more information)</p>
@@ -400,8 +434,7 @@ title="This is a sound of a Subaru Impreza WRX STI" >
 
 <!--The audio element needs a closing tag (</audio>) it seems to differ from the <img> element -->
 <br>
-<p>This is a sound of a <a href="https://en.wikipedia.org/wiki/Subaru_Impreza" 
-    title="This is a sound of a modified Subaru Impreza WRX STI">Subaru</a> (hover for more information)</p>
+<p title="This a modified engine car">This is a sound of a car (hover for more information)</p>
 
 
 <br>
@@ -445,7 +478,7 @@ the audio file-->
 <div align="center">
 
 <video autoplay loop muted width="45%" 
-alt="This is a video of a modified Subaru Impreza WRX STI 
+alt="This is a video of a modified Engine car 
 driving around a city">
 
 
@@ -466,9 +499,9 @@ This browser does not support HTML5 video
 <br>
 
 <video controls  width="55%" 
-title="This is a Subaru Impreza WRX STI. It has a turbo engine which has been modified to 
+title="This is a Modified car. It has a turbo engine which has been modified to 
 give it the (Stututututu) sound. This is known as Turbo flutter aka compressor surge" 
-alt="This is a video of a modified Subaru Impreza WRX STI 
+alt="This is a video of a modified car 
 driving around a city">
     
 <source src="images/Subaru Impreza wrx flutter.webm">
@@ -777,7 +810,7 @@ width="7% " >
 
 
 <h1>
-<a href="Page2.html" target="_self" 
+<a href="./Page2" target="_self" 
 title="This takes you to page 2">
     Page 2
 </a>
@@ -790,6 +823,8 @@ title="This takes you to page 2">
 <p> &copy; Copyright 2024 Ibrahim A. Mohamed  </p>
 
  </footer>
+
+</div>
 </body>
 
 </html> <!--Document be in between two of these 
