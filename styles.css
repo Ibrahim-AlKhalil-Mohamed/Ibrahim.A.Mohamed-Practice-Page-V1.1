@@ -1,0 +1,166 @@
+ 
+ #container{
+
+width  : 60% ;
+margin : auto
+
+ }
+ 
+#Heroimg{
+
+height : 200px   ;
+background-image : url("images/html\ bg.png") ;
+background-repeat: no-repeat ;
+background-attachment: fixed;
+background-size: auto;
+
+
+}
+
+#IA{ 
+    margin : 0 ;
+    position : relative ;
+    top : 50px
+    
+
+
+}
+
+#HCSS{ 
+
+position: relative;
+text-align : center ;
+top : 10vh
+
+}
+
+
+
+body{
+
+padding : 0 ;
+margin : 0
+
+}
+
+nav{
+
+background-color :rgb(89, 0, 255) ;
+text-align : right ;
+position : sticky ;
+top : 0 ;
+z-index: 1;
+
+}
+
+
+
+nav ul{
+
+    margin : 0 ;
+    overflow : hidden ;
+   
+
+} 
+
+ nav ul li {
+
+    list-style : none ;
+    display : inline-block ;
+    padding : 25px
+
+ }
+
+
+ nav a{
+
+text-decoration : none ;
+color : white ;
+ 
+ }
+
+
+ 
+ nav ul li:hover{
+
+    background-color : rgba(0, 0, 0, 0.253) ;
+  
+
+ }
+
+ nav ul li a:hover{
+
+  color :rgb(51, 255, 0)
+
+ }
+
+ h5{ 
+    font-family : Space Grotesk ;
+    font-weight : 500 ;
+    
+
+}
+
+H1{ 
+    text-align : center
+
+}
+
+button{
+
+    color : white ; background-color
+    : black; font-family : space grotesk
+    ; border-radius : 9px ; height : 35px ; 
+
+}
+
+#button{ text-align : center}
+
+html{  font-family: space grotesk;
+
+
+
+}
+
+footer{ text-align : center
+
+
+}
+
+
+.ThewordCSS{ 
+    color : rgb(89, 0, 255) ;
+    margin : 0
+}
+
+#Linethrough {
+    text-decoration : Line-through
+ }
+
+#Overline{ 
+    text-decoration : overline
+ }
+
+#Underline{
+     text-decoration : underline 
+    }
+
+#Wavy{ 
+    text-decoration : wavy underline
+ }
+
+#Dotted{ 
+    text-decoration : dotted underline
+}
+
+@media screen and ( max-width :768px ){
+
+#container{
+
+    width  : 90% ;
+    margin : auto
+
+
+}
+
+}
