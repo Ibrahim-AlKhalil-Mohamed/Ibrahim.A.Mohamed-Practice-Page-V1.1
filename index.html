@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"> 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name="charset" content="UTF-8">
+    <link href="styles1.css" rel="stylesheet" >
    
     <!--This allows you to choose a character set such as ASCII
     ANSI and UNICODE. Unicode (UTF-8) Covers mosts characters and 
@@ -47,49 +48,36 @@
     
         
 
-<body  style="font-family: Space Grotesk ; color :rgb(0, 0, 0) ; background-color: rgb(255, 255, 255);">
+<body>
  <!--This is the content of the page 
     (this may be why its reffered to as the body)--> 
-
- <style>
-#Container{
-
-   width  :  70% ;
-   margin :  auto
    
-}
 
-@media screen and (max-width : 768px){
+<nav>
 
-#Container{
+<a href="https://github.com/IbrahimAKMohamed"> GitHub </a>
+<a href="index.html">HTML</a>
+<a href="Page2.html">CSS</a>
+<a href="login.html"> JavaScript </a>
 
-   width  :  90% ;
-   margin :  auto
-   
-}
 
-   
-}
+</nav>
 
+<div id="Heroimg">
+ 
+    <h1 id="IA">IBRAHIM A </h1>
+    <h4 id="HHTML" class="ThewordHTML"> Software Developer <br>(HTML) </h4> 
     
- </style>  
-   
-   
-   
-   
-<div id="Container"
-   
-<br>
-<br>
-<h1 align="center">Practice Page</h1>    
+    </div>  
 
-<div style="text-align : center"> 
-    <img draggable="false" src="images/1.png" width="58%">
-</div>
+<div id="Container">
 
+    <br>
 
 <i>
-     Welcome to my practice page, here I've been diving into the world of<span style="color : red"> HTML </span>, <span style="color : rgb(89, 0, 255)"> CSS</span>, and <span style="color : rgb(255, 123, 0)">JavaScript</span>, and this practice page is where I experiment and refine my skills.
+     Welcome to my practice page, here I've been diving into the world of<span class=ThewordHTML> HTML</span>, 
+     <span class="ThewordCSS"> CSS</span>, and <span class="ThewordJS">JavaScript</span>, and this practice page
+      is where I experiment and refine my skills.
       Feel free to take a look around, and I hope you find something inspiring or interesting.
       Your feedback and suggestions are always welcome as I continue to learn and improve. Thank you for visiting.
 
@@ -103,7 +91,7 @@
 <br>
 <br>
       
-    <hr width="70%" color="black" size="0.8px">
+    <hr id="hr1" >
 
 <h1>Forms </h1>
 
@@ -123,7 +111,7 @@
         Below, explore some examples of forms :</p>
 
 
-<div style="text-align: center">
+<div id="signin">
 
 <h4>Sign in</h4>
 
@@ -288,17 +276,13 @@ placeholder="1" id="ml" name="ml">
     <div style= "text-align : center">
     <a href="./images/morocco.jpeg" target="_blank"> 
     
-    <button title="This leads to a mystery page" 
-    style="background-color: rgb(0, 0, 0) ; color 
-    :rgb(255, 255, 255) ; border-radius :9px ; font-family:
-     Space Grotesk ; height: 60px; width : 200px"> Click me! </button>
+    <button title="This leads to a mystery page" > Click me! </button>
     </a>
     
     <br>
     <br>
     
-    <button onclick = "Switchtext()" style="Color: white ; background-color: black ;
-    height :60px ; width : 200px ; border-radius : 9px">
+    <button onclick = "Switchtext()">
     
     
     
@@ -345,7 +329,7 @@ placeholder="1" id="ml" name="ml">
     <br><!--this adds a line break (a gap between lines)-->
     
     
-    <hr width="10%">
+    <hr id="hr2">
 
 
 <h1>Paragraphs</h1>
@@ -357,7 +341,7 @@ placeholder="1" id="ml" name="ml">
      one, providing a clear distinction between different pieces 
      of information.</p>
  <!--a gap will automatically be created between two <p> tags-->
-<hr  size="0.2px" width="61%" align="left">
+<hr id="hr3">
 <h1>Hyperlinks </h1>
 
 <a href="https://www.worldhistory.org/uploads/images/10167.jpg"target =_self> <!--The href must be inside the first <a> tag and contain the link in the " " -->
@@ -806,7 +790,7 @@ width="7% " >
 
 
 <h1>
-<a href="./Page2" target="_self" 
+<a href="Page2.html" target="_self" 
 title="This takes you to page 2">
     Page 2
 </a>
